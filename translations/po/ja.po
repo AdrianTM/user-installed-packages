@@ -6,9 +6,9 @@
 # Translators:
 # fehlix, 2023
 # night1ynx <night1ynxd@gmail.com>, 2023
+# 🎈 BALLOON | FU-SEN, 2023
 # Geoff Gigg <geoffgigg@hotmail.com>, 2023
 # James Bowlin <BitJam@gmail.com>, 2023
-# 🎈 BALLOON | FU-SEN, 2023
 # Green <usergreen@users.osdn.me>, 2023
 # 
 #, fuzzy
@@ -19,7 +19,7 @@ msgstr ""
 "POT-Creation-Date: 2023-03-27 20:37+0200\n"
 "PO-Revision-Date: 2023-03-20 13:51+0000\n"
 "Last-Translator: Green <usergreen@users.osdn.me>, 2023\n"
-"Language-Team: Japanese (https://www.transifex.com/anticapitalista/teams/10162/ja/)\n"
+"Language-Team: Japanese (https://app.transifex.com/anticapitalista/teams/10162/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -70,13 +70,13 @@ msgid "Description"
 msgstr "説明"
 
 msgid "List of user installed packages"
-msgstr "ユーザー自身がインストールを行ったパッケージのリスト（一覧）です。"
+msgstr "ユーザー自身が追加したパッケージの全一覧です。"
 
 msgid "List of unavailable packages"
-msgstr "利用不可能なパッケージのリスト"
+msgstr "利用不可能なパッケージの一覧"
 
 msgid "The following packages are not available or cannot be installed:"
-msgstr "以下のパッケージは利用不可能、もしくはインストール出来ません。"
+msgstr "以下のパッケージについては、利用不可能、あるいは追加できません。"
 
 msgid "MX - User Installed Packages"
 msgstr "MX - ユーザーインストールパッケージ (UIP)"
@@ -84,24 +84,24 @@ msgstr "MX - ユーザーインストールパッケージ (UIP)"
 msgid ""
 "This app is designed to make it easy to reinstall packages that the user has"
 " added to the default installation and retained."
-msgstr "このアプリは、ユーザーが標準インストールに追加して保存しているパッケージを簡単に再インストールできるようにします。"
+msgstr "このアプリは、既定のインストール済みパッケージ以外に、ユーザーが独自に追加し保存したパッケージを簡単に再インストールできるようにします。"
 
 msgid "It combines two steps:"
-msgstr "これは、以下2つのステップを組み合わせています。"
+msgstr "これには、以下2つのステップを組み合わせています。"
 
 msgid "1) quickly and easily create a list of those packages"
-msgstr "1) 一連のパッケージリストを素早く簡単に作成します"
+msgstr "1) 一連のパッケージ一覧を素早く簡単に作成します"
 
 msgid ""
 "2) use that list in another location to review and reinstall those packages,"
 " if still available"
-msgstr "2) パッケージを確認する目的でリストを使用したり、もし可能であれば再インストールを行います。"
+msgstr "2) パッケージを確認する目的で一覧表を使用したり、もし可能であれば再インストールを実行します。"
 
 msgid "Create a list of user installed packages"
-msgstr "ユーザーがインストールしたパッケージのリストを作成"
+msgstr "ユーザー自身で追加したパッケージの一覧を作成"
 
 msgid "Open a previously saved list and install selected packages"
-msgstr "以前に保存したリストを開き、選択したパッケージをインストール"
+msgstr "以前に保存した一覧を開き、選択したパッケージをインストール"
 
 msgid "You have no packages installed!"
 msgstr "パッケージはインストールしていません！"
@@ -118,16 +118,16 @@ msgstr[0] "%d 個のパッケージをインストールしています。"
 #. UIP = "User Installed Packages".
 #. The list of user installed packages (UIP) failed to save.
 msgid "The UIP list of packages installed by the user could not be saved"
-msgstr "ユーザーインストールパッケージ（UIP）のリストが保存できません"
+msgstr "ユーザーインストールパッケージ（UIP）の一覧を保存できません"
 
 msgid "No file selected."
 msgstr "ファイルを選択していません。"
 
 msgid "Select which packages you want to install:"
-msgstr "インストールするパッケージを選択します"
+msgstr "追加したいパッケージを選択してください"
 
 msgid "Install packages"
-msgstr "パッケージのインストール"
+msgstr "パッケージの追加"
 
 msgid "Missing Packages"
 msgstr "不足しているパッケージ"
@@ -136,25 +136,25 @@ msgstr "不足しているパッケージ"
 #. UIP = "User Installed Packages".
 #. The list of missing packages was saved under:
 msgid "[OK] UIP list of missing packages saved:"
-msgstr "[OK] 不足しているパッケージリストを保存"
+msgstr "[OK] 不足しているパッケージ一覧を保存"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of missing packages failed to save.
 msgid "UIP list of missing packages could not be saved."
-msgstr "不足しているパッケージリストを保存できませんでした。"
+msgstr "不足しているパッケージ一覧を保存できませんでした。"
 
 msgid "Press Enter to exit"
 msgstr "Enter キーを押して終了"
 
 msgid "Installing selected packages, please authenticate"
-msgstr "選択したパッケージをインストールするには認証が必要です。"
+msgstr "選択したパッケージを追加するには認証が必要です。"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The user selects a file to save the list of user installed packages (UIP).
 msgid "Select location to save file"
-msgstr "ファイルを保存する場所を選択"
+msgstr "ファイルの保存場所を選択"
 
 msgid "File exists. Overwrite?"
 msgstr "ファイルが存在します。上書きしますか？"
@@ -234,12 +234,12 @@ msgstr "ファイルの選択"
 #. TRANSLATORS:
 #. The desktop entry comment will be shown within the menu.
 msgid "List user installed packages. Install packages from existing list."
-msgstr "ユーザーがインストールしたパッケージのリストを表示します。既存リストからパッケージをインストールします。"
+msgstr "ユーザー自身が追加したパッケージの一覧を表示します。既存の一覧の中からパッケージを追加します。"
 
 #. TRANSLATORS:
 #. Keywords to search in the menu. Hint: Add translated keywords to existing.
 msgid "apt;install;package;uip;"
-msgstr "apt;APT;uip;インストール;パッケージ;ユーザーインストールパッケージ;"
+msgstr "apt;APT;uip;インストール;追加;パッケージ;ユーザーインストールパッケージ;"
 
 msgid "MX User Installed Packages"
 msgstr "MX ユーザーインストールパッケージ (UIP)"
@@ -248,7 +248,7 @@ msgid "About MX User Installed Packages"
 msgstr "MX ユーザーインストールパッケージについて"
 
 msgid "An app to list and re-install user installed packages."
-msgstr "ユーザーがインストールしたパッケージの一覧を表示したりその再インストールを行います。"
+msgstr "ユーザー自身がシステムに追加したパッケージの一覧を表示したり、その再インストールを実行します。"
 
 msgid "Changelog"
 msgstr "更新履歴"
@@ -263,7 +263,7 @@ msgid "MX User Installed Packages License"
 msgstr "MX ユーザーインストールパッケージのライセンス"
 
 msgid "Authentication is required to install selected packages"
-msgstr "選択したパッケージをインストールするには認証が必要です。"
+msgstr "選択したパッケージを追加するには認証が必要です。"
 
 msgid "Install selected packages"
-msgstr "インストールパッケージを選択"
+msgstr "選択したパッケージを追加"

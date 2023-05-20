@@ -1,3 +1,10 @@
+user-installed-packages (23.05.01) mx; urgency=medium
+
+  * Adjust mesonbuild
+  * Translation refresh
+
+ -- fehlix <fehlix@mxlinux.org>  Sat, 20 May 2023 15:53:01 -0500
+
 user-installed-packages (23.04) mx; urgency=medium
 
   * Use svg icons instead of png icons
