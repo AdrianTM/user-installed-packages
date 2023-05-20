@@ -1,4 +1,15 @@
-project('user-installed-packages', version: '@VERSION@', meson_version: '>=1.0.0')
+project('user-installed-packages', 
+    meson_version: '>=1.0.0',
+    version: configure_file(
+        command: [
+        'dpkg-parsechangelog', '-l', 
+        meson.project_source_root() / 'debian/changelog',
+        '-SVersion'],
+        capture: true,
+        output: 'version',
+        )
+)
+
 
 i18n = import('i18n')
 

@@ -1,24 +1,25 @@
 # Transifex resource user-installed-packages-mx 
 # with minimum completion percent 30%
-# generated at Tue, 04 Apr 2023 10:07:52 -0500
+# generated at Fri, 19 May 2023 17:06:34 -0500
    Nr.		Cnt.	 Compl.		Code		Language
    ---		----	 ------		----		--------
      1		  59	   100%    	ca      	ca	Catalan; Valencian
      2		  59	   100%    	de      	de	German
      3		  59	   100%    	es      	es	Spanish; Castilian
      4		  59	   100%    	es_ES   	es	Spanish; Castilian @ Spain
-     5		  59	   100%    	fr      	fr	French
-     6		  59	   100%    	fr_BE   	fr	French @ Belgium
-     7		  59	   100%    	it      	it	Italian
-     8		  59	   100%    	ja      	ja	Japanese
-     9		  59	   100%    	nb      	nb	Bokmål, Norwegian; Norwegian Bokmål
-    10		  59	   100%    	nl      	nl	Dutch; Flemish
-    11		  59	   100%    	pt      	pt	Portuguese
-    12		  59	   100%    	pt_BR   	pt	Portuguese @ Brazil
-    13		  59	   100%    	sl      	sl	Slovenian
-    14		  59	   100%    	sq      	sq	Albanian
-    15		  59	   100%    	sv      	sv	Swedish
-    16		  57	    96%    	ru      	ru	Russian
-    17		  56	    94%    	fi      	fi	Finnish
-    18		  50	    84%    	nl_BE   	nl	Dutch; Flemish @ Belgium
-    19		  19	    32%    	he_IL   	he	Hebrew @ Israel
+     5		  59	   100%    	fi      	fi	Finnish
+     6		  59	   100%    	fr      	fr	French
+     7		  59	   100%    	fr_BE   	fr	French @ Belgium
+     8		  59	   100%    	it      	it	Italian
+     9		  59	   100%    	ja      	ja	Japanese
+    10		  59	   100%    	nb      	nb	Bokmål, Norwegian; Norwegian Bokmål
+    11		  59	   100%    	nl      	nl	Dutch; Flemish
+    12		  59	   100%    	pt      	pt	Portuguese
+    13		  59	   100%    	pt_BR   	pt	Portuguese @ Brazil
+    14		  59	   100%    	ru      	ru	Russian
+    15		  59	   100%    	sl      	sl	Slovenian
+    16		  59	   100%    	sq      	sq	Albanian
+    17		  59	   100%    	sv      	sv	Swedish
+    18		  58	    98%    	pl      	pl	Polish
+    19		  50	    84%    	nl_BE   	nl	Dutch; Flemish @ Belgium
+    20		  19	    32%    	he_IL   	he	Hebrew @ Israel

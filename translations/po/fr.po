@@ -181,7 +181,7 @@ msgstr "[Validé] La liste UIP est enregistrée :"
 #. UIP = "User Installed Packages".
 #. The list of user installed packages (UIP) failed to save.
 msgid "UIP-list save file failed:"
-msgstr "Échec de l’enregistrement du fichier de la liste UIP:"
+msgstr "L’enregistrement du fichier de la liste UIP a échoué :"
 
 msgid "[ERROR]"
 msgstr "[ERREUR]"
