@@ -1,3 +1,16 @@
+user-installed-packages (23.06.02) mx; urgency=medium
+
+  * Add utf-8 meta character set to generated html help files
+
+ -- fehlix <fehlix@mxlinux.org>  Sun, 11 Jun 2023 07:28:57 -0500
+
+user-installed-packages (23.06.01) mx; urgency=medium
+
+  * Translation refresh
+  * new build for MX19 - MX23
+
+ -- fehlix <fehlix@mxlinux.org>  Sat, 10 Jun 2023 19:27:09 -0500
+
 user-installed-packages (23.05.01) mx; urgency=medium
 
   * Adjust mesonbuild

@@ -15,7 +15,7 @@ Homepage: http://mxlinux.org
 Package: user-installed-packages
 Architecture: all
 Depends: 
- apt (>=2.2),
+ apt,
  file,
  libnotify-bin,
  python3-pyqt5,

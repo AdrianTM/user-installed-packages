@@ -99,6 +99,7 @@ for lang in "en" "${POLANG[@]}"; do
     <!DOCTYPE html>
     <html lang="${HTML_LANG}" dir="${HTML_LTR}">
     <head>
+    <meta charset="utf-8" />
     <base href="${HREF}">
     <title>$(unset LC_ALL; export LANGUAGE=$lang; gettext "${HEAD_TITLE}" | tr -d "$BAD_CHARS")</title>
     </head>
