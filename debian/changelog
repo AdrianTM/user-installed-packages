@@ -1,3 +1,9 @@
+user-installed-packages (23.06.03) mx; urgency=medium
+
+  * Fix handling of backquotes in package description
+
+ -- fehlix <fehlix@mxlinux.org>  Mon, 12 Jun 2023 08:09:44 -0500
+
 user-installed-packages (23.06.02) mx; urgency=medium
 
   * Add utf-8 meta character set to generated html help files
