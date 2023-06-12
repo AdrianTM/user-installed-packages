@@ -200,7 +200,7 @@ uip_list() {
         SPACE=$(printf '%s' "${PADDS:0:${#ARCH}}")
         FORMAT='${binary:Package;-'"$PKG_WIDTH"'}  ${binary:Summary}\n'
         UIP_LIST=$(dpkg-query -f "$FORMAT" -W "${UIP[@]}" |
-                   sed  "s/:$ARCH/ $SPACE/")
+                   sed  "s/:$ARCH/ $SPACE/" | tr $'`' "'")
 
         # TRANSLATORS:
         # There may be more than one sentence that needs to be translated.
