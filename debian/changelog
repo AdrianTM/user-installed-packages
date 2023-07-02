@@ -1,3 +1,10 @@
+user-installed-packages (23.07.01) mx; urgency=medium
+
+  * Adjust handling of backquotes and special chars in package description
+  * Translation refresh
+
+ -- fehlix <fehlix@mxlinux.org>  Sun, 02 Jul 2023 15:51:03 -0500
+
 user-installed-packages (23.06.03) mx; urgency=medium
 
   * Fix handling of backquotes in package description

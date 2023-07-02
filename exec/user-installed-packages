@@ -536,7 +536,9 @@ uip_write_file() {
 
 
     local title=$(gettext 'User Installed Packages')
-    ERR=$(bash -c 'echo "'"${data}"'" > "'"$file"'"' 2>&1)
+    #ERR=$(bash -c 'echo "'"${data}"'" > "'"$file"'"' 2>&1)
+    export mydata="$data" myfile="$file"
+    ERR=$(bash -c 'echo "${mydata}" > "${myfile}"' 2>&1)
     RET=$?
     if (( RET ==0 )); then
        OK="$ok"
