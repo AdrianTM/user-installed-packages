@@ -135,13 +135,15 @@ def showLicence():
     if licenseViewer in ['/usr/bin/python3']:
         cmd = [licenseViewer, '-m', 'webbrowser', '-n',  license_file]
     elif licenseViewer in ['mx-viewer', 'antix-viewer']:
+        flags = '--disable-gpu --proxy-server=0.0.0.0'
+        os.environ['QTWEBENGINE_CHROMIUM_FLAGS'] = flags
         cmd = [licenseViewer, license_file, licenseViewerTitle]
     elif licenseViewer in ['exo-open']:
         cmd = ['exo-open', '--launch', 'WebBrowser', license_file]
     else:
         cmd = [licenseViewer, license_file]
 
-    run(cmd)
+    run(cmd, stderr=DEVNULL)
 
     cmd = [executable, exec_path,  '--license']
     Popen(cmd)

@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Caner Başaran <basaran.caner@gmail.com>, 2023
 # mahmut özcan <faradundamarti@yandex.com>, 2023
+# Caner Başaran <basaran.caner@gmail.com>, 2023
 # mahmut özcan <mahmutozcan@protonmail.com>, 2023
 # Mehmet Akif 9oglu, 2023
 # 
@@ -148,7 +148,7 @@ msgid "UIP list of missing packages could not be saved."
 msgstr "Eksik paketlerin KYP listesi kaydedilemedi."
 
 msgid "Press Enter to exit"
-msgstr "Çıkmak için Enter'a basın"
+msgstr "Çıkmak için Enter’a basın"
 
 msgid "Installing selected packages, please authenticate"
 msgstr "Seçilen paketler yükleniyor, lütfen kimlik doğrulaması yapın"
@@ -264,7 +264,7 @@ msgid "MX User Installed Packages Changelog"
 msgstr "MX Kullanıcının Yüklediği Paketler Değişiklik Günlüğü"
 
 msgid "License"
-msgstr "Ruhsat"
+msgstr "Lisans"
 
 msgid "MX User Installed Packages License"
 msgstr "MX Kullanıcının Yüklediği Paketler Lisansı"

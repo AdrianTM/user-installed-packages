@@ -1,3 +1,14 @@
+user-installed-packages (23.07.02) mx; urgency=medium
+
+  * Disable gpu and web browsing in help/about viewer to avoid GpuChannel error
+  * Use LC_ALL=C to avoid locale variation of ascii-character class [a-z]
+  * Remove shell special characters from translated strings
+  * Replace shell quoting characters with safe quote marks
+  * Add help pictures for pl_PL and tr_TR locale
+  * Update translations
+
+ -- fehlix <fehlix@mxlinux.org>  Fri, 28 Jul 2023 14:43:42 -0500
+
 user-installed-packages (23.07.01) mx; urgency=medium
 
   * Adjust handling of backquotes and special chars in package description

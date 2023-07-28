@@ -115,7 +115,7 @@ main() {
         --field="${BUTTON_LIST}:FBTN" 'bash -c uip_list'
         --field="${BUTTON_LOAD}:FBTN" 'bash -c uip_load'
         )
-    
+
     "${YAD[@]}"   ## >/dev/null
 
 }
@@ -145,7 +145,7 @@ uip_help() {
     #local uip_help="/usr/share/user-installed-packages/help.html"
     local uip_help="$dir/$help"
     local language="${LANGUAGE//:/ } "
-    language+="${LC_ALL%%.*} ${LC_ALL%%_*} " 
+    language+="${LC_ALL%%.*} ${LC_ALL%%_*} "
     language+="${LC_MESSAGES%%.*} ${LC_MESSAGES%%_*} "
     language+="${LANG%%.*} ${LANG%%_*}"
     for lang in ${language}; do
@@ -157,7 +157,8 @@ uip_help() {
     [ -f "$uip_help" ] || return
 
     if command -v mx-viewer >/dev/null; then
-        mx-viewer "$uip_help"
+        QTWEBENGINE_CHROMIUM_FLAGS="--disable-gpu --proxy-server=0.0.0.0" mx-viewer "$uip_help" 2>/dev/null
+
     else
         python3 -m webbrowser -n "$uip_help"
     fi
@@ -435,7 +436,22 @@ NotUsed
 
     HOLDMESSAGE=$(gettext 'Press Enter to exit')
     INSTALL_MESSAGE=$(gettext "Installing selected packages, please authenticate")
-    CMD="echo $INSTALL_MESSAGE; "
+    # remove bad chars: dollar sign and back-quote etc
+    HOLDMESSAGE=${HOLDMESSAGE//[\$\`\|\>\<\&]/}
+    # replace single and double quotes with safe quote chars
+    HOLDMESSAGE=${HOLDMESSAGE//\'/’}
+    HOLDMESSAGE=${HOLDMESSAGE//\"/”}
+    # replcae semicolon with comma
+    HOLDMESSAGE=${HOLDMESSAGE//;/,}
+    # remove bad chars: dollar sign and back-quote etc
+    INSTALL_MESSAGE=${INSTALL_MESSAGE//[\$\`\|\>\<\&]/}
+    # replace single and double quotes with safe quote chars
+    INSTALL_MESSAGE=${INSTALL_MESSAGE//\'/’}
+    INSTALL_MESSAGE=${INSTALL_MESSAGE//\"/”}
+    # replace semicolon with comma
+    INSTALL_MESSAGE=${INSTALL_MESSAGE//;/,}
+
+    CMD="echo ${INSTALL_MESSAGE}; "
     local polkit_pattern='polkit-kde-auth|polkit-gnome-au|lxqt-policykit-'
     if [ -x /usr/bin/pkexec ] && pgrep -u $(id -u) "$polkit_pattern" >/dev/null; then
         if [ -x /usr/libexec/user-installed-packages/uip-apt-install ]; then
@@ -564,7 +580,7 @@ uip_select_list_file() {
     local uip_files
     eval uip_files=($(find . -maxdepth 3 -type f -name 'uip-list*.txt' -printf "'%p'\n"))
     (( ${#uip_files[@]} !=0 )) &&  selected_file=$(ls -1t "${uip_files[@]}" | head -1)
-    
+
     # TRANSLATORS:
     # UIP = "User Installed Packages".
     # The user selects a file with user installed packages (UIP) to be read.
@@ -663,8 +679,9 @@ uip_select_list_file() {
         fi
 
        # check file containes lines starting with non-valid package name pattern
-       local none_pkg_cnt=$(sed 's/^[[:space:]]*//; /^#/d; /^$/d' "$selected_file" |
-                             grep -c -vE '^[a-z0-9._:+-]+([[:space:]]|$)')
+       local none_pkg_cnt=$(sed 's/^[[:space:]]*//; /^#/d; /^$/d;
+                            s/[[:space:]].*//'  "$selected_file"  |
+                            LC_ALL=C grep  -v -E '^[a-z0-9._:+-]+')
 
         if (( none_pkg_cnt != 0 )); then
            # not a valid UIP-list file
@@ -682,7 +699,7 @@ uip_select_list_file() {
         fi
 
         # check file containes lines starting with valid package name pattern
-        local pkg_cnt=$(grep -c -E '^[a-z0-9._:+-]+([[:space:]]|$)' "$selected_file")
+        local pkg_cnt=$(LC_ALL=C grep -c -E '^[a-z0-9._:+-]+([[:space:]]|$)' "$selected_file")
 
         if (( pkg_cnt == 0 )); then
             # not a valid UIP-list file: no packge names
