@@ -1,6 +1,6 @@
 # Transifex resource user-installed-packages-help-mx 
 # with minimum completion percent 100%
-# generated at Sun, 02 Jul 2023 15:41:54 -0500
+# generated at Fri, 28 Jul 2023 14:52:14 -0500
    Nr.		Cnt.	 Compl.		Code		Language
    ---		----	 ------		----		--------
      1		  26	   100%    	ca      	ca	Catalan; Valencian
@@ -13,9 +13,11 @@
      8		  26	   100%    	it      	it	Italian
      9		  26	   100%    	ja      	ja	Japanese
     10		  26	   100%    	nb      	nb	Bokmål, Norwegian; Norwegian Bokmål
-    11		  26	   100%    	pt      	pt	Portuguese
-    12		  26	   100%    	pt_BR   	pt	Portuguese @ Brazil
-    13		  26	   100%    	ru      	ru	Russian
-    14		  26	   100%    	sl      	sl	Slovenian
-    15		  26	   100%    	sq      	sq	Albanian
-    16		  26	   100%    	sv      	sv	Swedish
+    11		  26	   100%    	pl      	pl	Polish
+    12		  26	   100%    	pt      	pt	Portuguese
+    13		  26	   100%    	pt_BR   	pt	Portuguese @ Brazil
+    14		  26	   100%    	ru      	ru	Russian
+    15		  26	   100%    	sl      	sl	Slovenian
+    16		  26	   100%    	sq      	sq	Albanian
+    17		  26	   100%    	sv      	sv	Swedish
+    18		  26	   100%    	tr      	tr	Turkish
