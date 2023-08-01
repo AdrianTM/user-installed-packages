@@ -1,6 +1,6 @@
 # LINGUAS for user-installed-packages-help-mx
 # with minimum completion percent 100%
-# generated at Fri, 28 Jul 2023 14:52:14 -0500
+# generated at Tue, 01 Aug 2023 17:27:09 -0500
 #
 ca
 de
@@ -9,6 +9,7 @@ es
 fi
 fr_BE
 fr
+hu
 it
 ja
 nb
