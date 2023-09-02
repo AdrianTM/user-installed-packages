@@ -1,3 +1,17 @@
+user-installed-packages (23.09.01) mx; urgency=medium
+
+  * Fix alternative dependent packages detection
+  * Translations refresh
+
+ -- fehlix <fehlix@mxlinux.org>  Sat, 02 Sep 2023 13:32:57 -0500
+
+user-installed-packages (23.08.01) mx; urgency=medium
+
+  * Keep alternate dependent packages in uip list
+  * Translations refresh
+
+ -- fehlix <fehlix@mxlinux.org>  Tue, 01 Aug 2023 17:24:48 -0500
+
 user-installed-packages (23.07.02) mx; urgency=medium
 
   * Disable gpu and web browsing in help/about viewer to avoid GpuChannel error

@@ -152,7 +152,7 @@ msgid "Press Enter to exit"
 msgstr "Pritsnite enter za izhod"
 
 msgid "Installing selected packages, please authenticate"
-msgstr "Nameščanje izbranih pakeotv zahteva overitev"
+msgstr "Nameščanje izbranih paketov zahteva overitev"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".

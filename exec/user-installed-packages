@@ -176,15 +176,17 @@ uip_list() {
 
     UIP=($(comm -23 \
        <( eval apt-mark showmanual "$GREP_FILTER" | sed 's/[[:space:]].*//' | sort -u) \
-       <( { sed -r "s/[[:space:]].*//;
-                    s/:(${ARCH}|all|any)//g;
+       <( { sed -r "s/[[:space:]].*//;                     # remove all after white space
+                    s/:(${ARCH}|all|any)//g;               # remove arch, all and any
                     " "$INSTALLED_PACKAGES" 2>/dev/null;
            dpkg-query --showformat='${Depends}:${Architecture}\n' --show |
-           sed -r "s/[[:space:]]*//g;
-                   s/[(][^)]*[)]//g;
-                   s/:(${ARCH}|all|any)//g;
-                   s/[|,]/\n/g;
-                   /^:/d; /^$/d";
+           sed -r "s/[[:space:]]*//g;                      # remove white spaces
+                   s/[(][^)]*[)]//g;                       # remove pkg-versions
+                   s/:(${ARCH}|all|any)//g;                # remove arch, all and any
+                   s/[,]/\n/g;                             # change comma to line breaks
+                   /^:/d;                                  # remove leftover colon lines
+                   /^$/d;                                  # remove empty lines" |
+            grep -vF "|";                                  # remove alternative dependencies
           } | sort -u
          )
     ))
