@@ -1,3 +1,10 @@
+user-installed-packages (23.09.01) mx; urgency=medium
+
+  * Fix alternative dependent packages detection
+  * Translations refresh
+
+ -- fehlix <fehlix@mxlinux.org>  Sat, 02 Sep 2023 13:32:57 -0500
+
 user-installed-packages (23.08.01) mx; urgency=medium
 
   * Keep alternate dependent packages in uip list

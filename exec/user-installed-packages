@@ -184,9 +184,9 @@ uip_list() {
                    s/[(][^)]*[)]//g;                       # remove pkg-versions
                    s/:(${ARCH}|all|any)//g;                # remove arch, all and any
                    s/[,]/\n/g;                             # change comma to line breaks
-                   /[|]/d;                                 # remove alternate depends
                    /^:/d;                                  # remove leftover colon lines
-                   /^$/d";                                 # remove empty lines
+                   /^$/d;                                  # remove empty lines" |
+            grep -vF "|";                                  # remove alternative dependencies
           } | sort -u
          )
     ))

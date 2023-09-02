@@ -8,4 +8,6 @@ debian/debhelper-build-stamp
 debian/files
 debian/*.substvars
 debian/user-installed-packages/
+help/help/
+help/help.html
 mesonbuild/
