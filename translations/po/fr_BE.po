@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Wallon Wallon, 2023
+# Wallon Wallon, 2024
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://forum.mxlinux.org/viewforum.php?f=96\n"
 "POT-Creation-Date: 2023-03-27 20:37+0200\n"
 "PO-Revision-Date: 2023-03-20 13:51+0000\n"
-"Last-Translator: Wallon Wallon, 2023\n"
+"Last-Translator: Wallon Wallon, 2024\n"
 "Language-Team: French (Belgium) (https://app.transifex.com/anticapitalista/teams/10162/fr_BE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 msgid "About"
-msgstr "A propos"
+msgstr "À propos"
 
 msgid "Close"
 msgstr "Quitter"
@@ -87,10 +87,10 @@ msgstr ""
 "conservés."
 
 msgid "It combines two steps:"
-msgstr "Il combine deux étapes:"
+msgstr "Il s’agit d’une combinaison de deux étapes:"
 
 msgid "1) quickly and easily create a list of those packages"
-msgstr "1) créer rapidement et facilement une liste de ces paquets"
+msgstr "1) créer rapidement et facilement une liste de ces paquets,"
 
 msgid ""
 "2) use that list in another location to review and reinstall those packages,"
@@ -255,7 +255,7 @@ msgid "MX User Installed Packages"
 msgstr "MX Paquets installés par l’utilisateur - MX User Installed Packages"
 
 msgid "About MX User Installed Packages"
-msgstr "A propos de MX User Installed Packages"
+msgstr "À propos de MX User Installed Packages"
 
 msgid "An app to list and re-install user installed packages."
 msgstr ""

@@ -5,7 +5,7 @@
 # 
 # Translators:
 # fehlix, 2023
-# Green <usergreen@users.osdn.me>, 2023
+# Green <usergreen@users.osdn.me>, 2024
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://forum.mxlinux.org/viewforum.php?f=96\n"
 "POT-Creation-Date: 2023-03-27 19:23+0200\n"
 "PO-Revision-Date: 2023-03-27 16:20+0000\n"
-"Last-Translator: Green <usergreen@users.osdn.me>, 2023\n"
+"Last-Translator: Green <usergreen@users.osdn.me>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/anticapitalista/teams/10162/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,12 +23,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "User Installed Packages Help"
-msgstr "ユーザーインストールパッケージのヘルプ"
+msgstr "ユーザインストール済みパッケージのヘルプ"
 
 msgid ""
 "This application is intended to facilitate the re-installation of packages "
 "that the user has added to the default installation."
-msgstr "このアプリケーションは、ユーザーが標準のインストール済みパッケージに追加した分について、その再インストールを支援することが目的です。"
+msgstr "このアプリケーションは、ユーザが既定のインストール済みパッケージに追加した分について、その再インストールを支援することが目的です。"
 
 msgid ""
 "It can display a list of packages manually installed by the user that can be"
@@ -36,7 +36,7 @@ msgid ""
 "saved list of packages for review and selection to be reinstalled. Such a "
 "procedure is especially easy and useful after a new system installation."
 msgstr ""
-"ユーザーが手動でインストールしたパッケージの一覧を表示します。この一覧はシンプルなテキストファイルに保存することができます。さらに、このアプリケーションは、保存したパッケージ一覧を読み込み、再インストールする目的での確認や選択を行うことができます。こうした手順は、新規システムのインストール後に非常に役立ちます。"
+"ユーザが手動でインストールしたパッケージの一覧を表示します。この一覧はシンプルなテキストファイルに保存することができます。さらに、このアプリケーションは、保存したパッケージ一覧を読み込み、再インストールする目的での確認や選択を行うことができます。こうした手順は、新規システムのインストール後に非常に役立ちます。"
 
 msgid "There are two options to choose from:"
 msgstr "次の2つの選択肢から選ぶことができます："
@@ -50,10 +50,10 @@ msgid ""
 msgstr "一覧を別の場所で使用して、それらのパッケージを確認したり、もし利用可能であれば再インストールを行ないます。"
 
 msgid "Create a list of user-installed packages"
-msgstr "ユーザーによってインストール済みのパッケージ一覧を作成"
+msgstr "ユーザによってインストール済みのパッケージ一覧を作成"
 
 msgid "A list of user-installed packages is displayed."
-msgstr "ユーザー自身がインストールしたパッケージ一覧を表示します。"
+msgstr "ユーザ自身がインストールしたパッケージ一覧を表示します。"
 
 msgid ""
 "Note: Packages of installed Linux kernels or NVIDIA graphics drivers will "
@@ -106,7 +106,7 @@ msgid "The installation process is started within a new terminal window."
 msgstr "インストールのプロセスは、新規端末のウィンドウ内で開始します。"
 
 msgid "Authentication and confirmation are required to perform installation."
-msgstr "インストールを実行するには、ユーザーの認証と確認が必要です。"
+msgstr "インストールを実行するには、ユーザの認証と確認が必要です。"
 
 #. TRANSLATORS:
 #. A question "Do you want to continue? [Y/n]" is displayed in the terminal

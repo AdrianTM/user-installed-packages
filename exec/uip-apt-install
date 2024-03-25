@@ -4,4 +4,5 @@
 # part of user-installed-packages
 # to allow localized authentication messages displayed
 
+/usr/bin/apt update
 /usr/bin/apt install "$@"

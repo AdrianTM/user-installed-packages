@@ -1,24 +1,28 @@
 # Transifex resource user-installed-packages-help-mx 
 # with minimum completion percent 100%
-# generated at Sat, 02 Sep 2023 13:53:03 -0500
+# generated at Mon, 25 Mar 2024 12:33:56 -0500
    Nr.		Cnt.	 Compl.		Code		Language
    ---		----	 ------		----		--------
      1		  26	   100%    	ca      	ca	Catalan; Valencian
      2		  26	   100%    	de      	de	German
-     3		  26	   100%    	es      	es	Spanish; Castilian
-     4		  26	   100%    	es_ES   	es	Spanish; Castilian @ Spain
-     5		  26	   100%    	fi      	fi	Finnish
-     6		  26	   100%    	fr      	fr	French
-     7		  26	   100%    	fr_BE   	fr	French @ Belgium
-     8		  26	   100%    	hu      	hu	Hungarian
-     9		  26	   100%    	it      	it	Italian
-    10		  26	   100%    	ja      	ja	Japanese
-    11		  26	   100%    	nb      	nb	Bokmål, Norwegian; Norwegian Bokmål
-    12		  26	   100%    	pl      	pl	Polish
-    13		  26	   100%    	pt      	pt	Portuguese
-    14		  26	   100%    	pt_BR   	pt	Portuguese @ Brazil
-    15		  26	   100%    	ru      	ru	Russian
-    16		  26	   100%    	sl      	sl	Slovenian
-    17		  26	   100%    	sq      	sq	Albanian
-    18		  26	   100%    	sv      	sv	Swedish
-    19		  26	   100%    	tr      	tr	Turkish
+     3		  26	   100%    	el      	el	Greek, Modern (1453-)
+     4		  26	   100%    	es      	es	Spanish; Castilian
+     5		  26	   100%    	es_ES   	es	Spanish; Castilian @ Spain
+     6		  26	   100%    	fi      	fi	Finnish
+     7		  26	   100%    	fr      	fr	French
+     8		  26	   100%    	fr_BE   	fr	French @ Belgium
+     9		  26	   100%    	gl_ES   	gl	Galician @ Spain
+    10		  26	   100%    	hu      	hu	Hungarian
+    11		  26	   100%    	it      	it	Italian
+    12		  26	   100%    	ja      	ja	Japanese
+    13		  26	   100%    	nb      	nb	Bokmål, Norwegian; Norwegian Bokmål
+    14		  26	   100%    	pl      	pl	Polish
+    15		  26	   100%    	pt      	pt	Portuguese
+    16		  26	   100%    	pt_BR   	pt	Portuguese @ Brazil
+    17		  26	   100%    	ru      	ru	Russian
+    18		  26	   100%    	ru_RU   	ru	Russian @ Russian Federation
+    19		  26	   100%    	sl      	sl	Slovenian
+    20		  26	   100%    	sq      	sq	Albanian
+    21		  26	   100%    	sv      	sv	Swedish
+    22		  26	   100%    	tr      	tr	Turkish
+    23		  26	   100%    	zh_CN   	zh	Chinese @ China
