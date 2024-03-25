@@ -341,6 +341,7 @@ NotUsed
         ))
     # echo "#-------------------------";  declare -p UIP_INSTALL
 
+:<<'NotUsed'
     UIP_NOT_INSTALLABLE=($(
         LC_ALL=C apt-get -s install  "${UIP_INSTALL[@]}" 2>&1 |
         sed -n '/^The following packages have unmet dependencies/,/^E:/{
@@ -349,6 +350,16 @@ NotUsed
                 s/[[:space:]]:.*//
                 p}'
     ))
+NotUsed
+
+    UIP_NOT_INSTALLABLE=()
+    NOT_INSTALLABLE=""
+    if NOT_INSTALLABLE=$(LC_ALL=C apt-get -s -o 'APT::Get::Show-User-Simulation-Note=0' install  "${UIP_INSTALL[@]}" 2>&1 ); then
+        UIP_NOT_INSTALLABLE=()
+    else
+        UIP_NOT_INSTALLABLE=($(sed -n '/^[[:space:]]/! d; s/^[[:space:]]//;  s/[[:space:]]:[[:space:]].*//; p' <<<"$NOT_INSTALLABLE"))
+        NOT_INSTALLABLE=""
+    fi
     # echo "#-------------------------";  declare -p UIP_NOT_INSTALLABLE
 
     UIP_INSTALLABLE=($(
@@ -407,7 +418,7 @@ NotUsed
             PKG_WIDTH=$(( PKG_WIDTH + 10))
 
             DATA=$UIP_UNAVAILABLE_HEADER
-            DATA+="$UIP_MISSING"
+            DATA+="$UIP_DATA"
 
             local now=$(date '+%y%m%d-%H%M%S')
             local save_file="uip-missing-$now.txt"

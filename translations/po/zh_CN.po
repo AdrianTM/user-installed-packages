@@ -4,10 +4,11 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# a73a47e368cc011d8f94528bd9d5d3f1_91fccdf <1b07f49e2a323989c85dd26d526f7bb9_871526>, 2023
+# James Bowlin <BitJam@gmail.com>, 2023
 # anticapitalista <anticapitalista@riseup.net>, 2023
-# Emmanuel Brun <brun.manu@gmail.com>, 2023
-# cyril cottet <cyrilusber2001@yahoo.fr>, 2023
-# Wallon Wallon, 2024
+# EldersJavas <eldersjavas@gmail.com>, 2023
+# Xie Yanbo <xieyanbo@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -16,42 +17,42 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://forum.mxlinux.org/viewforum.php?f=96\n"
 "POT-Creation-Date: 2023-03-27 20:37+0200\n"
 "PO-Revision-Date: 2023-03-20 13:51+0000\n"
-"Last-Translator: Wallon Wallon, 2024\n"
-"Language-Team: French (https://app.transifex.com/anticapitalista/teams/10162/fr/)\n"
+"Last-Translator: Xie Yanbo <xieyanbo@gmail.com>, 2023\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/anticapitalista/teams/10162/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "About"
-msgstr "À propos"
+msgstr "关于"
 
 msgid "Close"
-msgstr "Quitter"
+msgstr "关闭"
 
 msgid "Help"
-msgstr "Aide"
+msgstr "帮助"
 
 msgid "OK"
-msgstr "Valider"
+msgstr "确定"
 
 #. TRANSLATORS:
 #. The user clicks the "Save List" button to save the list of packages
 #. installed by the user.
 msgid "Save List"
-msgstr "Enregistrer la liste"
+msgstr "保存列表"
 
 msgid "Date:"
-msgstr "Date :"
+msgstr "日期："
 
 #. TRANSLATORS:
 #. The hostname of the system.
 msgid "Host:"
-msgstr "Hôte :"
+msgstr "主机："
 
 msgid "System:"
-msgstr "Système :"
+msgstr "系统："
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
@@ -59,59 +60,50 @@ msgstr "Système :"
 #. TRANSLATORS:
 #. The desktop entry name will be displayed within the menu.
 msgid "User Installed Packages"
-msgstr "Paquets installés par l’utilisateur"
+msgstr "用户已安装软件包"
 
 msgid "Package name"
-msgstr "Nom du paquet"
+msgstr "软件包名"
 
 msgid "Description"
-msgstr "Description"
+msgstr "具体描述"
 
 msgid "List of user installed packages"
-msgstr "Liste des paquets installés par l’utilisateur"
+msgstr "用户已安装的软件包列表"
 
 msgid "List of unavailable packages"
-msgstr "Liste des paquets indisponibles"
+msgstr "不可用软件包列表"
 
 msgid "The following packages are not available or cannot be installed:"
-msgstr ""
-"Les paquets suivants sont indisponibles ou ne peuvent pas être installés :"
+msgstr "以下软件包不可用或无法安装："
 
 msgid "MX - User Installed Packages"
-msgstr ""
-"MX - Paquets installés par l’utilisateur - MX - User Installed Packages"
+msgstr "MX - 用户已安装软件包"
 
 msgid ""
 "This app is designed to make it easy to reinstall packages that the user has"
 " added to the default installation and retained."
-msgstr ""
-"Cette application est conçue pour faciliter la réinstallation des paquets "
-"que l’utilisateur a ajoutés à l’installation par défaut et qu’il a "
-"conservés."
+msgstr "此应用程序旨在使重新安装用户已添加并保留的默认软件包变得简单。"
 
 msgid "It combines two steps:"
-msgstr "Il s’agit d’une combinaison de deux étapes :"
+msgstr "它结合了两个步骤："
 
 msgid "1) quickly and easily create a list of those packages"
-msgstr "1) créer rapidement et facilement une liste de ces paquets,"
+msgstr "1) 快速简便地创建那些软件包的列表"
 
 msgid ""
 "2) use that list in another location to review and reinstall those packages,"
 " if still available"
-msgstr ""
-"2) utiliser cette liste dans un autre emplacement pour examiner et "
-"réinstaller ces paquets, s’ils sont toujours disponibles."
+msgstr "2) 在另一个位置使用该列表来查看并重新安装那些仍然可用的软件包"
 
 msgid "Create a list of user installed packages"
-msgstr "Créer une liste des paquets installés par l’utilisateur"
+msgstr "创建用户已安装软件包的列表"
 
 msgid "Open a previously saved list and install selected packages"
-msgstr ""
-"Ouvrir une liste préalablement enregistrée et installer les paquets "
-"sélectionnés"
+msgstr "打开之前保存的列表并安装所选的软件包"
 
 msgid "You have no packages installed!"
-msgstr "Aucun paquet n’est installé !"
+msgstr "您没有安装任何软件包！"
 
 #. TRANSLATORS:
 #. There may be more than one sentence that needs to be translated.
@@ -119,167 +111,158 @@ msgstr "Aucun paquet n’est installé !"
 #. Do keep the count placeholder "%d".
 msgid "You have installed 1 package:"
 msgid_plural "You have installed %d packages:"
-msgstr[0] "Vous avez installé 1 paquet :"
-msgstr[1] "Vous avez installé %d paquets :"
-msgstr[2] "Vous avez installé %d paquets :"
+msgstr[0] "您已安装了%d个软件包："
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of user installed packages (UIP) failed to save.
 msgid "The UIP list of packages installed by the user could not be saved"
-msgstr ""
-"La liste UIP des paquets installés par l’utilisateur n’a pas pu être "
-"enregistrée."
+msgstr "用户已安装软件包的列表无法保存"
 
 msgid "No file selected."
-msgstr "Aucun fichier sélectionné."
+msgstr "未选择文件。"
 
 msgid "Select which packages you want to install:"
-msgstr "Choisir les paquets que vous souhaitez installer :"
+msgstr "选择您想要安装的软件包："
 
 msgid "Install packages"
-msgstr "Installer les paquets"
+msgstr "安装软件包"
 
 msgid "Missing Packages"
-msgstr "Paquets manquants"
+msgstr "缺少的软件包"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of missing packages was saved under:
 msgid "[OK] UIP list of missing packages saved:"
-msgstr "[Validé] La liste UIP des paquets manquants est enregistrée :"
+msgstr "[OK] 用户已安装软件包的缺失软件包列表已保存。"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of missing packages failed to save.
 msgid "UIP list of missing packages could not be saved."
-msgstr "La liste UIP des paquets manquants n’a pas pu être enregistrée."
+msgstr "用户已安装软件包列表中的缺失包列表无法保存。"
 
 msgid "Press Enter to exit"
-msgstr "Appuyez sur Enter pour quitter"
+msgstr "按回车键（Enter）键退出"
 
 msgid "Installing selected packages, please authenticate"
-msgstr "Installation des paquets sélectionnés, veuillez vous authentifier"
+msgstr "安装选中的软件包，请进行身份验证"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The user selects a file to save the list of user installed packages (UIP).
 msgid "Select location to save file"
-msgstr "Sélectionnez l’emplacement pour enregistrer le fichier"
+msgstr "选择保存文件的位置"
 
 msgid "File exists. Overwrite?"
-msgstr "Le fichier existe déjà. L’écraser ?"
+msgstr "文件已存在。要覆盖吗？"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of user installed packages (UIP) was saved successfully under:
 msgid "[OK] UIP list saved:"
-msgstr "[Validé] La liste UIP est enregistrée :"
+msgstr "[OK] 用户已安装软件包列表已保存："
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The list of user installed packages (UIP) failed to save.
 msgid "UIP-list save file failed:"
-msgstr "L’enregistrement du fichier de la liste UIP a échoué :"
+msgstr "用户已安装软件包列表保存文件失败："
 
 msgid "[ERROR]"
-msgstr "[ERREUR]"
+msgstr "[错误]"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The user selects a file with user installed packages (UIP) to be read.
 msgid "Select UIP list to load"
-msgstr "Choisir la liste UIP à charger"
+msgstr "选择要加载的用户已安装软件包列表"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The selected file appears not to be a valid list of user installed packages
 #. (UIP).
 msgid "Not a valid UIP-list file:"
-msgstr "Fichier de liste UIP non valide :"
+msgstr "不是有效的用户已安装软件包列表文件："
 
 #. TRANSLATORS:
 #. The selected file is directory not a regular file.
 msgid "Selected file is a directory."
-msgstr "Le fichier choisi est un répertoire."
+msgstr "选中的文件是一个目录。"
 
 #. TRANSLATORS:
 #. The selected file is not a regular (text) file.
 msgid "Not a regular file"
-msgstr "Ce n’est pas un fichier normal"
+msgstr "不是一个常规文件"
 
 #. TRANSLATORS:
 #. The selected file is not readable file.
 msgid "File is not readable."
-msgstr "Le fichier n’est pas lisible."
+msgstr "文件不可读。"
 
 #. TRANSLATORS:
 #. The type of the file the user has selected: "file type"
 msgid "file type"
-msgstr "type de fichier"
+msgstr "文件类型"
 
 #. TRANSLATORS:
 #. The selected file is not a plain ASCII text file.
 msgid "Not a plain ASCII text file"
-msgstr "Ce n’est pas un fichier texte ASCII"
+msgstr "不是一个纯 ASCII 码文本文件"
 
 #. TRANSLATORS:
 #. The selected file is not a text file.
 msgid "Not a text file"
-msgstr "Ce n’est pas un fichier texte"
+msgstr "不是一个文本文件"
 
 #. TRANSLATORS:
 #. UIP = "User Installed Packages".
 #. The selected file is not a valid UIP-list file with invalid package names.
 msgid "File contains invalid package names"
-msgstr "Le fichier contient des noms de paquets incorrects"
+msgstr "文件包含无效的软件包名"
 
 #. TRANSLATORS:
 #. The selected file seems not to hold any package names.
 msgid "File contains no package names"
-msgstr "Le fichier ne contient pas de noms de paquets"
+msgstr "文件不包含软件包名"
 
 msgid "Select a file"
-msgstr "Choisir un fichier"
+msgstr "选择一个文件"
 
 #. TRANSLATORS:
 #. The desktop entry comment will be shown within the menu.
 msgid "List user installed packages. Install packages from existing list."
-msgstr ""
-"Liste des paquets installés par l’utilisateur. Installer des paquets à "
-"partir d’une liste existante."
+msgstr "列出用户已安装的软件包。从现有列表中安装软件包。"
 
 #. TRANSLATORS:
 #. Keywords to search in the menu. Hint: Add translated keywords to existing.
 msgid "apt;install;package;uip;"
-msgstr "apt;install;package;uip;paquet;installé;utilisateur;"
+msgstr "apt;install;package;uip;安装;软件包;用户已安装软件包;"
 
 msgid "MX User Installed Packages"
-msgstr "MX Paquets installés par l’utilisateur - MX User Installed Packages"
+msgstr "MX 用户已安装软件包"
 
 msgid "About MX User Installed Packages"
-msgstr "À propos de MX User Installed Packages"
+msgstr "关于 MX 用户已安装软件包"
 
 msgid "An app to list and re-install user installed packages."
-msgstr ""
-"Une application pour lister et réinstaller les paquets installés par "
-"l’utilisateur."
+msgstr "一个列出和重新安装用户安装过的软件包的应用程序。"
 
 msgid "Changelog"
-msgstr "Journal des modifications"
+msgstr "变更日志"
 
 msgid "MX User Installed Packages Changelog"
-msgstr "MX Journal des modifications des paquets installés par l’utilisateur"
+msgstr "MX 用户已安装软件包的变更日志"
 
 msgid "License"
-msgstr "Licence"
+msgstr "许可证"
 
 msgid "MX User Installed Packages License"
-msgstr "MX Licence pour User Installed Packages"
+msgstr "MX 用户已安装软件包许可证"
 
 msgid "Authentication is required to install selected packages"
-msgstr ""
-"L’authentification est requise pour installer les paquets sélectionnés"
+msgstr "需要进行身份验证才能安装所选软件包"
 
 msgid "Install selected packages"
-msgstr "Installer les paquets sélectionnés"
+msgstr "安装选中的软件包"
